@@ -1,0 +1,409 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141526;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px;
+    background: #6e73d7;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+
+#load {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: #141526;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#load p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+#load img {
+    width: 200px;
+}
+
+/*Логотип*/
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*Изображение логотипа*/
+.logo__pic {
+    width: 80px;
+}
+
+/*Текст логотипа*/
+.logo__name {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.logo_2 {
+    width: 70px;
+    margin: 0;
+    position: fixed;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+}
+
+.about {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+.about h2 {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.about p {
+    color: white;
+    font-size: 20px;
+
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.about .comand-list {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: rgb(205, 149, 255);
+}
+
+
+.about button {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 10px;
+    border: 1px solid white;
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+}
+
+.about button:hover {
+    background-color: rgb(175, 84, 255);
+    color: #fff;
+    cursor: pointer;
+}
+#hello_btn {
+    background-color: #6e73d7;
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+
+    background-color: #6e73d7;
+    color: #000000;
+
+    height: 50px;
+
+    font-size: large;
+    font-weight: 700;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0 1rem;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+#hello_btn:hover{
+    background: rgb(175, 84, 255);
+    cursor: pointer;
+}
+
+.help_btn {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    background-color: #141526;
+    color: #ffffff;
+
+    height: 50px;
+
+    font-size: large;
+    font-weight: 700;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0 1rem;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.help_btn:hover {
+    background: rgb(175, 84, 255);
+    cursor: pointer;
+}
+
+/*КАРТА СЕТИ*/
+main {
+    display: block;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 105px;
+    bottom: 0%;
+    z-index: -1;
+}
+
+#network-map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#network-table {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #a6b1e1;
+}
+
+#network-table h2 {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.refr {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    z-index: 1;
+    width: 180px;
+}
+
+.exp {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    z-index: 1;
+    width: 180px;
+}
+
+.hello {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.hello h2 {
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.hello p {
+    display: block;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+main button {
+    background-color: #CADEFC;
+    color: #000000;
+
+    height: 50px;
+
+    font-size: large;
+    font-weight: 700;
+
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0 1rem;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+main button:hover {
+    background-color: #141526;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+}
+
+/*БАНЕР*/
+.help {
+    position: absolute;
+    display: block;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.925);
+    z-index: 1;
+}
+
+.help h2 {
+    display: block;
+    color: white;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.help_text {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.help p {
+    display: block;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.zoom {
+    position: absolute;
+    display: block;
+    width: 20%;
+    margin: 35px 10%;
+}
+
+.zoom img {
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.zoom .zoom_text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.motion {
+    position: absolute;
+    display: block;
+    width: 20%;
+    margin: 35px 39%;
+}
+
+.motion img {
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.motion .motion_text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.node-motion {
+    position: absolute;
+    display: block;
+    width: 20%;
+    margin: 35px 68%;
+}
+
+.node-motion img {
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.node-motion .node-motion_text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.help button {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+
+    font-size: large;
+    font-weight: 700;
+
+    border: 1px solid white;
+    padding: 0 1rem;
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.help button:hover {
+    background-color: rgb(175, 84, 255);
+    color: #fff;
+    cursor: pointer;
+}

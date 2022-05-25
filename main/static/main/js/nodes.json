@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PC_1_1",
+    "status": "Mining",
+    "ip": "192.168.137.100",
+    "mac": "28:E9:46:6C:58:EF",
+    "height": 60,
+    "fill": {
+      "src": "static/main/img/device_infected_icon.png"
+    }
+  },
+  {
+    "id": "PC_1_2",
+    "status": "So good",
+    "ip": "192.168.137.102",
+    "mac": "28:E9:46:6C:58:EF",
+    "height": 60,
+    "fill": {
+      "src": "static/main/img/device_icon.png"
+    }
+  },
+  {
+    "id": "PC_1_3",
+    "status": "So good",
+    "ip": "192.168.137.105",
+    "mac": "28:E9:46:6C:58:EF",
+    "height": 60,
+    "fill": {
+      "src": "static/main/img/device_icon.png"
+    }
+  }
+]
